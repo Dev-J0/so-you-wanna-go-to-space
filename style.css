@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: MyFont;
+    src: url();
+}
+html {
+    background: fixed;
+    background-image: url(./starter-code/assets/home/background-home-desktop.jpg);
+    background-size: cover;
+}
+
+.line {
+    border-bottom: 2px solid rgba(88, 87, 87, 0.849);
+    width: 800px;
+    position: fixed;
+    top: 55px;
+    height: 10px;
+    left: 130px;
+}
+
+.menu {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    background-color: rgba(65, 65, 73, 0.582);
+    gap: 30px;
+    height: 70px;
+    align-items:center ;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    top: 30px;
+    text-transform: uppercase;
+    backdrop-filter: blur(8px);
+    letter-spacing: 2px;
+}
+
+a:visited {
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    border: none;
+    color: white;
+    text-decoration: none; 
+}
+
+#logo{
+    position: fixed;
+    top: 40px;
+    left: 50px;
+}
+
+header {
+    margin-bottom: 200px;
+}
+
+.main-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 100px;
+    padding-top: 150px;
+}
+
+#explore-button {
+    width: 210px; 
+    height: 210px; 
+    border-radius: 50%; 
+    background-color: white;
+    font-size: 22px;
+    color: black;
+    text-align: center; 
+    line-height: 160px; 
+    display: inline-block; 
+    text-transform: uppercase;
+    padding: 20px;
+    position: fixed;
+    bottom: 200px;
+    right: 400px;
+}
